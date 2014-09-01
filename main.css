@@ -49,10 +49,25 @@ table {
 
 /*************************STYLES*************************/  
 
+@font-face {
+	font-family: 'Star Jedi';
+	src: url('Starjedi.ttf');
+}
+
+@font-face {
+	font-family: 'Aurek-Besh';
+	src: url('psuedo.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Social Icons Pro Set 1 - Rounded';
+	src: url('socialIcons.ttf');
+}
+
 h1,
 h2,
 h3 {
-	font-family:'star jedi logo monoline', serif;
+	font-family:'Star Jedi', serif;
 	color: #fff;
 	font-size: 1.9em;
 	line-height: .85em;
@@ -61,10 +76,12 @@ h3 {
 
 
 p {
-	font-family: 'aurek-besh hand', serif;
+	font-family: 'Aurek-Besh', serif;
 	color: #fff;
 
-} 
+}
+
+
 
 /*************************COLORS*************************/
 
@@ -111,7 +128,7 @@ nav {
 }
 
 #imperial {
-	font-family: 'star jedi', serif;
+	font-family: 'Star Jedi', serif;
 	font-size: 1.5em;
 	color: #ccc;
 	text-decoration: none;
@@ -274,7 +291,7 @@ nav {
 }
 
 #hiring a {
-	font-family: 'aurek-besh hand', serif;
+	font-family: 'Aurek-Besh', serif;
 	color: #fff;
 }
 
@@ -303,7 +320,7 @@ nav {
 }
 
 #quotes a {
-	font-family: 'aurek-besh hand', serif;
+	font-family: 'Aurek-Besh', serif;
 	color: #fff;
 }
 
@@ -411,6 +428,7 @@ nav {
 	justify-content: center;
 	margin-top: 75px;
 }
+
 
 #social li a{
 	margin: 0 20px;
